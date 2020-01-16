@@ -1,0 +1,57 @@
+//Przykład wstawienia informacji o grzejniku w łazience
+db.getCollection('urzadzenia').insert({
+    nazwa : 'Grzejnik łazienka',
+    tempCelsjusz: NumberInt(25),
+    data: new Date()  
+});
+
+//Przykład wstawienia informacji o grzejniku w sypialni
+db.getCollection('urzadzenia').insert({
+    nazwa : 'Grzejnik sypialnia',
+    tempCelsjusz: NumberInt(25),
+    data: new Date()  
+});
+
+//Przykład wstawienia informacji o ogrzewaniu podłogowym w kuchni
+db.getCollection('urzadzenia').insert({
+    nazwa : 'Podłoga kuchnia',
+    tempCelsjusz: NumberInt(25),
+    data: new Date()  
+});
+
+//Przykład wstawienia informacji o ogrzewaniu podłogowym w łazience
+db.getCollection('urzadzenia').insert({
+    nazwa : 'Podłoga łazienka',
+    tempCelsjusz: NumberInt(25),
+    data: new Date()  
+});
+
+
+//Wyświetlnie wszystkich urządzeń(wszystkie dodane urządzenia kiedykolwiek ich parametry i data.
+//(sortujemy aby jako pierwsze wyświetlały się te ostatnio dodane)
+db.getCollection('urzadzenia').find({}).sort({_id:-1});
+
+//Wyświetlenie wszystkich informacji o zmianach dokonanych o grzejniku w łazience
+db.getCollection('urzadzenia').find({nazwa:'Grzejnik łazienka'}).sort({_id:-1});
+
+//Wyświetlenie wszystkich informacji o zmianach dokonanych o grzejniku w sypialni
+db.getCollection('urzadzenia').find({nazwa:'Grzejnik sypialnia'}).sort({_id:-1});
+
+//Wyświetlenie wszystkich informacji o zmianach dokonanych o ogrzewaniu podłogowym w kuchni
+db.getCollection('urzadzenia').find({nazwa:'Podłoga kuchnia'}).sort({_id:-1});
+
+//Wyświetlenie wszystkich informacji o zmianach dokonanych o ogrzewaniu podłogowym w łazience
+db.getCollection('urzadzenia').find({nazwa:'Podłoga łazienka'}).sort({_id:-1});
+
+//Wyświetlenie wszystkich dodanych urządzeń związanych w ogrzewaniem (kiedykolwiek dodanych)
+//ich parametry i data.
+//(sortujemy aby jako pierwsze wyświetlały się te ostatnio dodane)
+db.getCollection('urzadzenia')
+.find
+({$or:[
+{nazwa : 'Grzejnik łazienka'},
+{nazwa : 'Grzejnik sypialnia'},
+{nazwa : 'Podłoga kuchnia'},
+{nazwa : 'Podłoga łazienka'}
+]})
+.sort({_id:-1});

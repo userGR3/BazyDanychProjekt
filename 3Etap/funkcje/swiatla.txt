@@ -1,0 +1,56 @@
+//Przykład wstawienia informacji o świetle w korytarzu
+db.getCollection('urzadzenia').insert({
+    nazwa : 'Światło korytarz',
+    jasnoscProcent: NumberInt(50),
+    data: new Date()  
+});
+
+//Przykład wstawienia informacji o świetle w kuchni
+db.getCollection('urzadzenia').insert({
+    nazwa : 'Światło kuchnia',
+    jasnoscProcent: NumberInt(0),
+    data: new Date()  
+});
+
+//Przykład wstawienia informacji o świetle w łazience
+db.getCollection('urzadzenia').insert({
+    nazwa : 'Światło łazienka',
+    jasnoscProcent: NumberInt(20),
+    data: new Date()  
+});
+
+//Przykład wstawienia informacji o świetle w sypialni
+db.getCollection('urzadzenia').insert({
+    nazwa : 'Światło sypialnia',
+    jasnoscProcent: NumberInt(80),
+    data: new Date()  
+});
+
+
+//Wyświetlnie wszystkich urządzeń(wszystkie dodane urządzenia kiedykolwiek ich parametry i data.
+//(sortujemy aby jako pierwsze wyświetlały się te ostatnio dodane)
+db.getCollection('urzadzenia').find({}).sort({_id:-1});
+
+//Wyświetlenie wszystkich informacji o zmianach dokonanych na światłach w korytarzach
+db.getCollection('urzadzenia').find({nazwa:'Światło korytarz'}).sort({_id:-1});
+
+//Wyświetlenie wszystkich informacji o zmianach dokonanych na światłach w kuchni
+db.getCollection('urzadzenia').find({nazwa:'Światło kuchnia'}).sort({_id:-1});
+
+//Wyświetlenie wszystkich informacji o zmianach dokonanych na światłach w łazience
+db.getCollection('urzadzenia').find({nazwa:'Światło łazienka'}).sort({_id:-1});
+
+//Wyświetlenie wszystkich informacji o zmianach dokonanych na światłach w sypialni
+db.getCollection('urzadzenia').find({nazwa:'Światło sypialnia'}).sort({_id:-1});
+
+//Wyświetlenie wszystkich dodanych świateł kiedykolwiek dodanych ich parametry i data.
+//(sortujemy aby jako pierwsze wyświetlały się te ostatnio dodane)
+db.getCollection('urzadzenia')
+.find
+({$or:[
+{nazwa : 'Światło korytarz'},
+{nazwa : 'Światło kuchnia'},
+{nazwa : 'Światło łazienka'},
+{nazwa : 'Światło sypialnia'}
+]})
+.sort({_id:-1});

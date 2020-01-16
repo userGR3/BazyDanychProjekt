@@ -1,0 +1,30 @@
+//Przykład wstawienia informacji o żaluzji w kuchni
+db.getCollection('urzadzenia').insert({
+    nazwa : 'Żaluzje kuchnia',
+    jasnoscProcent: NumberInt(55),
+    data: new Date()  
+});
+
+//Przykład wstawienia informacji o żaluzji w sypialni
+db.getCollection('urzadzenia').insert({
+    nazwa : 'Żaluzje sypialnia',
+    jasnoscProcent: NumberInt(25),
+    data: new Date()  
+});
+
+
+//Wyświetlnie wszystkich urządzeń(wszystkie dodane urządzenia kiedykolwiek ich parametry i data.
+//(sortujemy aby jako pierwsze wyświetlały się te ostatnio dodane)
+db.getCollection('urzadzenia').find({}).sort({_id:-1});
+
+//Wyświetlenie wszystkich informacji o zmianach dokonanych na żaluzjach w kuchni
+db.getCollection('urzadzenia').find({nazwa:'Żaluzje kuchnia'}).sort({_id:-1});
+
+//Wyświetlenie wszystkich informacji o zmianach dokonanych na żaluzjach w sypialni
+db.getCollection('urzadzenia').find({nazwa:'Żaluzje sypialnia'}).sort({_id:-1});
+
+//Wyświetlenie wszytkich urządzeń związanych z żaluzjami
+//(sortujemy aby jako pierwsze wyświetlały się te ostatnio dodane)
+db.getCollection('urzadzenia')
+.find({$or:[{nazwa : 'Żaluzje kuchnia'},{nazwa : 'Żaluzje sypialnia'}]})
+.sort({_id:-1});

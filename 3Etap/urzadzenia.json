@@ -1,0 +1,384 @@
+{
+	"_id" : ObjectId("5e2034fdc0c5941c63aeb62a"),
+	"nazwa" : "Grzejnik łazienka",
+	"tempCelsjusz" : 25,
+	"data" : ISODate("2020-01-16T10:03:41.283Z")
+}
+{
+	"_id" : ObjectId("5e20368dc0c5941c63aeb62b"),
+	"nazwa" : "Grzejnik sypialnia",
+	"tempCelsjusz" : 25,
+	"data" : ISODate("2020-01-16T10:10:21.642Z")
+}
+{
+	"_id" : ObjectId("5e2036ebc0c5941c63aeb630"),
+	"nazwa" : "Podłoga kuchnia",
+	"tempCelsjusz" : 25,
+	"data" : ISODate("2020-01-16T10:11:55.627Z")
+}
+{
+	"_id" : ObjectId("5e2036ebc0c5941c63aeb631"),
+	"nazwa" : "Podłoga łazienka",
+	"tempCelsjusz" : 25,
+	"data" : ISODate("2020-01-16T10:11:55.629Z")
+}
+{
+	"_id" : ObjectId("5e203909c0c5941c63aeb632"),
+	"nazwa" : "Światło korytarz",
+	"jasnoscProcent" : 50,
+	"data" : ISODate("2020-01-16T10:20:57.467Z")
+}
+{
+	"_id" : ObjectId("5e203909c0c5941c63aeb633"),
+	"nazwa" : "Światło kuchnia",
+	"jasnoscProcent" : 0,
+	"data" : ISODate("2020-01-16T10:20:57.469Z")
+}
+{
+	"_id" : ObjectId("5e203909c0c5941c63aeb634"),
+	"nazwa" : "Światło łazienka",
+	"jasnoscProcent" : 20,
+	"data" : ISODate("2020-01-16T10:20:57.472Z")
+}
+{
+	"_id" : ObjectId("5e203909c0c5941c63aeb635"),
+	"nazwa" : "Światło sypialnia",
+	"jasnoscProcent" : 80,
+	"data" : ISODate("2020-01-16T10:20:57.475Z")
+}
+{
+	"_id" : ObjectId("5e203996c0c5941c63aeb636"),
+	"nazwa" : "Żaluzje kuchnia",
+	"jasnoscProcent" : 55,
+	"data" : ISODate("2020-01-16T10:23:18.754Z")
+}
+{
+	"_id" : ObjectId("5e203996c0c5941c63aeb637"),
+	"nazwa" : "Żaluzje sypialnia",
+	"jasnoscProcent" : 25,
+	"data" : ISODate("2020-01-16T10:23:18.755Z")
+}
+{
+	"_id" : ObjectId("5e20401ac0c5941c63aeb638"),
+	"nazwa" : "Światło korytarz",
+	"jasnoscProcent" : 20,
+	"data" : ISODate("2020-01-16T10:51:06.228Z")
+}
+{
+	"_id" : ObjectId("5e20401ac0c5941c63aeb639"),
+	"nazwa" : "Światło kuchnia",
+	"jasnoscProcent" : 50,
+	"data" : ISODate("2020-01-16T10:51:06.231Z")
+}
+{
+	"_id" : ObjectId("5e20401ac0c5941c63aeb63a"),
+	"nazwa" : "Światło łazienka",
+	"jasnoscProcent" : 80,
+	"data" : ISODate("2020-01-16T10:51:06.233Z")
+}
+{
+	"_id" : ObjectId("5e20401ac0c5941c63aeb63b"),
+	"nazwa" : "Światło sypialnia",
+	"jasnoscProcent" : 43,
+	"data" : ISODate("2020-01-16T10:51:06.235Z")
+}
+{
+	"_id" : ObjectId("5e20401ac0c5941c63aeb63c"),
+	"nazwa" : "Grzejnik łazienka",
+	"tempCelsjusz" : 14,
+	"data" : ISODate("2020-01-16T10:51:06.236Z")
+}
+{
+	"_id" : ObjectId("5e20401ac0c5941c63aeb63d"),
+	"nazwa" : "Grzejnik sypialnia",
+	"tempCelsjusz" : 15,
+	"data" : ISODate("2020-01-16T10:51:06.238Z")
+}
+{
+	"_id" : ObjectId("5e20401ac0c5941c63aeb63e"),
+	"nazwa" : "Podłoga kuchnia",
+	"tempCelsjusz" : 27,
+	"data" : ISODate("2020-01-16T10:51:06.240Z")
+}
+{
+	"_id" : ObjectId("5e20401ac0c5941c63aeb63f"),
+	"nazwa" : "Podłoga łazienka",
+	"tempCelsjusz" : 29,
+	"data" : ISODate("2020-01-16T10:51:06.241Z")
+}
+{
+	"_id" : ObjectId("5e20401ac0c5941c63aeb640"),
+	"nazwa" : "Żaluzje kuchnia",
+	"jasnoscProcent" : 35,
+	"data" : ISODate("2020-01-16T10:51:06.243Z")
+}
+{
+	"_id" : ObjectId("5e20401ac0c5941c63aeb641"),
+	"nazwa" : "Żaluzje sypialnia",
+	"jasnoscProcent" : 100,
+	"data" : ISODate("2020-01-16T10:51:06.244Z")
+}
+{
+	"_id" : ObjectId("5e204077c0c5941c63aeb642"),
+	"nazwa" : "Grzejnik łazienka",
+	"tempCelsjusz" : 24,
+	"data" : ISODate("2020-01-16T10:52:39.710Z")
+}
+{
+	"_id" : ObjectId("5e204077c0c5941c63aeb643"),
+	"nazwa" : "Światło korytarz",
+	"jasnoscProcent" : 10,
+	"data" : ISODate("2020-01-16T10:52:39.712Z")
+}
+{
+	"_id" : ObjectId("5e204077c0c5941c63aeb644"),
+	"nazwa" : "Światło kuchnia",
+	"jasnoscProcent" : 60,
+	"data" : ISODate("2020-01-16T10:52:39.713Z")
+}
+{
+	"_id" : ObjectId("5e204077c0c5941c63aeb645"),
+	"nazwa" : "Światło sypialnia",
+	"jasnoscProcent" : 62,
+	"data" : ISODate("2020-01-16T10:52:39.715Z")
+}
+{
+	"_id" : ObjectId("5e204077c0c5941c63aeb646"),
+	"nazwa" : "Podłoga kuchnia",
+	"tempCelsjusz" : 30,
+	"data" : ISODate("2020-01-16T10:52:39.717Z")
+}
+{
+	"_id" : ObjectId("5e204077c0c5941c63aeb647"),
+	"nazwa" : "Podłoga łazienka",
+	"tempCelsjusz" : 31,
+	"data" : ISODate("2020-01-16T10:52:39.718Z")
+}
+{
+	"_id" : ObjectId("5e204077c0c5941c63aeb648"),
+	"nazwa" : "Żaluzje kuchnia",
+	"jasnoscProcent" : 73,
+	"data" : ISODate("2020-01-16T10:52:39.720Z")
+}
+{
+	"_id" : ObjectId("5e204077c0c5941c63aeb649"),
+	"nazwa" : "Światło łazienka",
+	"jasnoscProcent" : 67,
+	"data" : ISODate("2020-01-16T10:52:39.753Z")
+}
+{
+	"_id" : ObjectId("5e204077c0c5941c63aeb64a"),
+	"nazwa" : "Grzejnik sypialnia",
+	"tempCelsjusz" : 23,
+	"data" : ISODate("2020-01-16T10:52:39.755Z")
+}
+{
+	"_id" : ObjectId("5e204077c0c5941c63aeb64b"),
+	"nazwa" : "Żaluzje sypialnia",
+	"jasnoscProcent" : 80,
+	"data" : ISODate("2020-01-16T10:52:39.756Z")
+}
+{
+	"_id" : ObjectId("5e2040a0c0c5941c63aeb64c"),
+	"nazwa" : "Światło korytarz",
+	"jasnoscProcent" : 20,
+	"data" : ISODate("2020-01-16T10:53:20.058Z")
+}
+{
+	"_id" : ObjectId("5e2040a0c0c5941c63aeb64d"),
+	"nazwa" : "Światło korytarz",
+	"jasnoscProcent" : 20,
+	"data" : ISODate("2020-01-16T10:53:20.060Z")
+}
+{
+	"_id" : ObjectId("5e2040a0c0c5941c63aeb64e"),
+	"nazwa" : "Światło korytarz",
+	"jasnoscProcent" : 20,
+	"data" : ISODate("2020-01-16T10:53:20.061Z")
+}
+{
+	"_id" : ObjectId("5e2040a0c0c5941c63aeb64f"),
+	"nazwa" : "Światło korytarz",
+	"jasnoscProcent" : 20,
+	"data" : ISODate("2020-01-16T10:53:20.063Z")
+}
+{
+	"_id" : ObjectId("5e2040a0c0c5941c63aeb650"),
+	"nazwa" : "Światło korytarz",
+	"jasnoscProcent" : 20,
+	"data" : ISODate("2020-01-16T10:53:20.065Z")
+}
+{
+	"_id" : ObjectId("5e2040a0c0c5941c63aeb651"),
+	"nazwa" : "Światło korytarz",
+	"jasnoscProcent" : 20,
+	"data" : ISODate("2020-01-16T10:53:20.066Z")
+}
+{
+	"_id" : ObjectId("5e2040a0c0c5941c63aeb652"),
+	"nazwa" : "Światło korytarz",
+	"jasnoscProcent" : 20,
+	"data" : ISODate("2020-01-16T10:53:20.862Z")
+}
+{
+	"_id" : ObjectId("5e2040a0c0c5941c63aeb653"),
+	"nazwa" : "Światło korytarz",
+	"jasnoscProcent" : 20,
+	"data" : ISODate("2020-01-16T10:53:20.864Z")
+}
+{
+	"_id" : ObjectId("5e2040a0c0c5941c63aeb654"),
+	"nazwa" : "Światło korytarz",
+	"jasnoscProcent" : 20,
+	"data" : ISODate("2020-01-16T10:53:20.866Z")
+}
+{
+	"_id" : ObjectId("5e2040a0c0c5941c63aeb655"),
+	"nazwa" : "Światło korytarz",
+	"jasnoscProcent" : 20,
+	"data" : ISODate("2020-01-16T10:53:20.868Z")
+}
+{
+	"_id" : ObjectId("5e2040a0c0c5941c63aeb656"),
+	"nazwa" : "Światło korytarz",
+	"jasnoscProcent" : 20,
+	"data" : ISODate("2020-01-16T10:53:20.869Z")
+}
+{
+	"_id" : ObjectId("5e2040a0c0c5941c63aeb657"),
+	"nazwa" : "Światło korytarz",
+	"jasnoscProcent" : 20,
+	"data" : ISODate("2020-01-16T10:53:20.871Z")
+}
+{
+	"_id" : ObjectId("5e2040a0c0c5941c63aeb658"),
+	"nazwa" : "Światło korytarz",
+	"jasnoscProcent" : 20,
+	"data" : ISODate("2020-01-16T10:53:20.873Z")
+}
+{
+	"_id" : ObjectId("5e2040a0c0c5941c63aeb659"),
+	"nazwa" : "Światło korytarz",
+	"jasnoscProcent" : 20,
+	"data" : ISODate("2020-01-16T10:53:20.874Z")
+}
+{
+	"_id" : ObjectId("5e2040b7c0c5941c63aeb65a"),
+	"nazwa" : "Światło korytarz",
+	"jasnoscProcent" : 20,
+	"data" : ISODate("2020-01-16T10:53:43.153Z")
+}
+{
+	"_id" : ObjectId("5e2040b7c0c5941c63aeb65b"),
+	"nazwa" : "Światło korytarz",
+	"jasnoscProcent" : 30,
+	"data" : ISODate("2020-01-16T10:53:43.155Z")
+}
+{
+	"_id" : ObjectId("5e2040b7c0c5941c63aeb65c"),
+	"nazwa" : "Światło korytarz",
+	"jasnoscProcent" : 40,
+	"data" : ISODate("2020-01-16T10:53:43.156Z")
+}
+{
+	"_id" : ObjectId("5e2040b7c0c5941c63aeb65d"),
+	"nazwa" : "Światło korytarz",
+	"jasnoscProcent" : 50,
+	"data" : ISODate("2020-01-16T10:53:43.158Z")
+}
+{
+	"_id" : ObjectId("5e2040b7c0c5941c63aeb65e"),
+	"nazwa" : "Światło korytarz",
+	"jasnoscProcent" : 60,
+	"data" : ISODate("2020-01-16T10:53:43.159Z")
+}
+{
+	"_id" : ObjectId("5e2040b7c0c5941c63aeb65f"),
+	"nazwa" : "Światło korytarz",
+	"jasnoscProcent" : 70,
+	"data" : ISODate("2020-01-16T10:53:43.161Z")
+}
+{
+	"_id" : ObjectId("5e2040b7c0c5941c63aeb660"),
+	"nazwa" : "Światło korytarz",
+	"jasnoscProcent" : 80,
+	"data" : ISODate("2020-01-16T10:53:43.163Z")
+}
+{
+	"_id" : ObjectId("5e2040b7c0c5941c63aeb661"),
+	"nazwa" : "Światło korytarz",
+	"jasnoscProcent" : 90,
+	"data" : ISODate("2020-01-16T10:53:43.164Z")
+}
+{
+	"_id" : ObjectId("5e2040b7c0c5941c63aeb662"),
+	"nazwa" : "Światło korytarz",
+	"jasnoscProcent" : 50,
+	"data" : ISODate("2020-01-16T10:53:43.166Z")
+}
+{
+	"_id" : ObjectId("5e2040fcc0c5941c63aeb663"),
+	"nazwa" : "Światło sypialnia",
+	"jasnoscProcent" : 22,
+	"data" : ISODate("2020-01-16T10:54:52.376Z")
+}
+{
+	"_id" : ObjectId("5e2040fcc0c5941c63aeb664"),
+	"nazwa" : "Światło sypialnia",
+	"jasnoscProcent" : 52,
+	"data" : ISODate("2020-01-16T10:54:52.378Z")
+}
+{
+	"_id" : ObjectId("5e2040fcc0c5941c63aeb665"),
+	"nazwa" : "Światło sypialnia",
+	"jasnoscProcent" : 15,
+	"data" : ISODate("2020-01-16T10:54:52.380Z")
+}
+{
+	"_id" : ObjectId("5e2040fcc0c5941c63aeb666"),
+	"nazwa" : "Światło sypialnia",
+	"jasnoscProcent" : 16,
+	"data" : ISODate("2020-01-16T10:54:52.381Z")
+}
+{
+	"_id" : ObjectId("5e2040fcc0c5941c63aeb667"),
+	"nazwa" : "Światło sypialnia",
+	"jasnoscProcent" : 19,
+	"data" : ISODate("2020-01-16T10:54:52.383Z")
+}
+{
+	"_id" : ObjectId("5e2040fcc0c5941c63aeb668"),
+	"nazwa" : "Światło sypialnia",
+	"jasnoscProcent" : 20,
+	"data" : ISODate("2020-01-16T10:54:52.384Z")
+}
+{
+	"_id" : ObjectId("5e2040fcc0c5941c63aeb669"),
+	"nazwa" : "Światło sypialnia",
+	"jasnoscProcent" : 50,
+	"data" : ISODate("2020-01-16T10:54:52.385Z")
+}
+{
+	"_id" : ObjectId("5e2040fcc0c5941c63aeb66a"),
+	"nazwa" : "Światło sypialnia",
+	"jasnoscProcent" : 100,
+	"data" : ISODate("2020-01-16T10:54:52.386Z")
+}
+{
+	"_id" : ObjectId("5e2040fcc0c5941c63aeb66b"),
+	"nazwa" : "Światło sypialnia",
+	"jasnoscProcent" : 53,
+	"data" : ISODate("2020-01-16T10:54:52.387Z")
+}
+{
+	"_id" : ObjectId("5e2040fcc0c5941c63aeb66c"),
+	"nazwa" : "Światło sypialnia",
+	"jasnoscProcent" : 63,
+	"data" : ISODate("2020-01-16T10:54:52.388Z")
+}
+{
+	"_id" : ObjectId("5e20411ec0c5941c63aeb66d"),
+	"nazwa" : "Grzejnik sypialnia",
+	"tempCelsjusz" : 26,
+	"data" : ISODate("2020-01-16T10:55:26.151Z")
+}
